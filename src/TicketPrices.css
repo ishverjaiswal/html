@@ -1,0 +1,106 @@
+.ticket-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
+    background: linear-gradient(145deg, #f0f0f3, #d9d9d9); /* Softer gradient */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Elevated shadow */
+    border-radius: 16px;
+    text-align: center;
+    color: #676767;; /* Slightly darker text */
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #45A049;
+    text-transform: capitalize;
+}
+
+.section {
+    margin: 50px 0;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #45A049;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.ticket-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 12px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.ticket-row:last-child {
+    border-bottom: none;
+}
+
+.ticket-row span {
+    font-size: 20px;
+    color: #7f8c8d;
+    font-weight: 500;
+}
+
+select {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid #bfc9ca;
+    border-radius: 8px;
+    background: #fdfdfd;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    border-color: #34495e;
+    background: #f4f4f4;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 73, 94, 0.3);
+}
+
+.total-section {
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 2px solid #d6d6d6;
+    background: #f7f7f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 26px;
+    color: #34495e;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+/* Add hover effect for better interactivity */
+.ticket-row span:hover {
+    color: #34495e;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Smooth hover effect for the total price */
+.total-section h3 {
+    transition: color 0.3s ease;
+}
+
+.total-section h3:hover {
+    color: #1abc9c; /* Vibrant highlight color */
+}
